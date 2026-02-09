@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/SEO.astro';
+import AdSense from '../components/AdSense.astro';
+import VolumeConverter from '../components/tools/VolumeConverter';
+---
+
+<BaseLayout>
+  <SEO slot="head" title="Volume Converter" description="Convert between liters, gallons, cups, milliliters, and fluid ounces instantly." />
+  <script slot="head" type="application/ld+json" set:html={"{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"How many liters are in a US gallon?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"One US gallon equals approximately 3.785 liters.\"}},{\"@type\":\"Question\",\"name\":\"How many cups are in a liter?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"One liter equals approximately 4.227 US cups.\"}}]}"} />
+
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <nav class="text-sm text-gray-500 mb-6">
+      <a href="/" class="hover:text-primary-600">Home</a> <span class="mx-2">›</span> <span class="text-gray-900">Volume Converter</span>
+    </nav>
+
+    <h1 class="text-3xl font-bold text-gray-900 mb-6">Volume Converter</h1>
+
+    <VolumeConverter client:load />
+
+    <AdSense slot="middle" />
+
+    <div class="mt-12 prose prose-gray max-w-none">
+      <h2>How to Convert Volume Units</h2><p>Volume conversion is critical in cooking, chemistry, and daily life. The metric system uses liters and milliliters, while the US uses cups, fluid ounces, pints, quarts, and gallons.</p><h3>US vs Imperial</h3><p>Be careful: US and Imperial gallons are different! A US gallon is about 3.785 liters, while an Imperial gallon is about 4.546 liters. The same applies to pints and fluid ounces.</p>
+    </div>
+
+    <div class="mt-12 bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+      <h2 class="text-xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
+      <div class="space-y-4">
+      <div class="border-b border-gray-100 pb-4 last:border-0">
+        <h3 class="font-semibold text-gray-900 mb-2">How many liters are in a US gallon?</h3>
+        <p class="text-gray-600">One US gallon equals approximately 3.785 liters.</p>
+      </div>
+      <div class="border-b border-gray-100 pb-4 last:border-0">
+        <h3 class="font-semibold text-gray-900 mb-2">How many cups are in a liter?</h3>
+        <p class="text-gray-600">One liter equals approximately 4.227 US cups.</p>
+      </div>
+      </div>
+    </div>
+
+    <AdSense slot="bottom" />
+  </div>
+</BaseLayout>

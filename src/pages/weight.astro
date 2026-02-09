@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/SEO.astro';
+import AdSense from '../components/AdSense.astro';
+import WeightConverter from '../components/tools/WeightConverter';
+---
+
+<BaseLayout>
+  <SEO slot="head" title="Weight Converter" description="Convert between kilograms, pounds, ounces, grams, stones, and tons instantly." />
+  <script slot="head" type="application/ld+json" set:html={"{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"How many pounds are in a kilogram?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"One kilogram equals approximately 2.205 pounds.\"}},{\"@type\":\"Question\",\"name\":\"What is a stone in weight?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"A stone is a unit of weight equal to 14 pounds (about 6.35 kg), commonly used in the UK for body weight.\"}}]}"} />
+
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <nav class="text-sm text-gray-500 mb-6">
+      <a href="/" class="hover:text-primary-600">Home</a> <span class="mx-2">›</span> <span class="text-gray-900">Weight Converter</span>
+    </nav>
+
+    <h1 class="text-3xl font-bold text-gray-900 mb-6">Weight Converter</h1>
+
+    <WeightConverter client:load />
+
+    <AdSense slot="middle" />
+
+    <div class="mt-12 prose prose-gray max-w-none">
+      <h2>How to Convert Weight Units</h2><p>Weight conversion is essential for cooking, fitness tracking, shipping, and international trade. The two main systems are metric (grams, kilograms) and imperial (ounces, pounds).</p><h3>Key Relationships</h3><p>The fundamental conversion: 1 kilogram equals approximately 2.205 pounds. For smaller weights, 1 ounce equals about 28.35 grams. In the UK, people often measure body weight in stones, where 1 stone equals 14 pounds or about 6.35 kilograms.</p>
+    </div>
+
+    <div class="mt-12 bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+      <h2 class="text-xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
+      <div class="space-y-4">
+      <div class="border-b border-gray-100 pb-4 last:border-0">
+        <h3 class="font-semibold text-gray-900 mb-2">How many pounds are in a kilogram?</h3>
+        <p class="text-gray-600">One kilogram equals approximately 2.205 pounds.</p>
+      </div>
+      <div class="border-b border-gray-100 pb-4 last:border-0">
+        <h3 class="font-semibold text-gray-900 mb-2">What is a stone in weight?</h3>
+        <p class="text-gray-600">A stone is a unit of weight equal to 14 pounds (about 6.35 kg), commonly used in the UK for body weight.</p>
+      </div>
+      </div>
+    </div>
+
+    <AdSense slot="bottom" />
+  </div>
+</BaseLayout>

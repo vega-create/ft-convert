@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/SEO.astro';
+import AdSense from '../components/AdSense.astro';
+import AngleConverter from '../components/tools/AngleConverter';
+---
+
+<BaseLayout>
+  <SEO slot="head" title="Angle Converter" description="Convert between degrees, radians, gradians, and other angle units." />
+  <script slot="head" type="application/ld+json" set:html={"{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"How do I convert degrees to radians?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Multiply degrees by π/180. For example, 90° = 90 × π/180 = π/2 ≈ 1.5708 radians.\"}}]}"} />
+
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <nav class="text-sm text-gray-500 mb-6">
+      <a href="/" class="hover:text-primary-600">Home</a> <span class="mx-2">›</span> <span class="text-gray-900">Angle Converter</span>
+    </nav>
+
+    <h1 class="text-3xl font-bold text-gray-900 mb-6">Angle Converter</h1>
+
+    <AngleConverter client:load />
+
+    <AdSense slot="middle" />
+
+    <div class="mt-12 prose prose-gray max-w-none">
+      <h2>How to Convert Angle Units</h2><p>Angle conversion is essential in mathematics, engineering, navigation, and physics. The most common conversion is between degrees and radians.</p><h3>Key Relationships</h3><p>A full circle is 360 degrees, 2π radians, or 400 gradians. 1 radian ≈ 57.296 degrees. π radians = 180 degrees.</p>
+    </div>
+
+    <div class="mt-12 bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+      <h2 class="text-xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
+      <div class="space-y-4">
+      <div class="border-b border-gray-100 pb-4 last:border-0">
+        <h3 class="font-semibold text-gray-900 mb-2">How do I convert degrees to radians?</h3>
+        <p class="text-gray-600">Multiply degrees by π/180. For example, 90° = 90 × π/180 = π/2 ≈ 1.5708 radians.</p>
+      </div>
+      </div>
+    </div>
+
+    <AdSense slot="bottom" />
+  </div>
+</BaseLayout>

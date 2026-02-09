@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/SEO.astro';
+import AdSense from '../components/AdSense.astro';
+import CookingConverter from '../components/tools/CookingConverter';
+---
+
+<BaseLayout>
+  <SEO slot="head" title="Cooking Converter" description="Convert between cups, tablespoons, teaspoons, ml, and fluid ounces for cooking." />
+  <script slot="head" type="application/ld+json" set:html={"{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"How many tablespoons are in a cup?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"One US cup equals 16 tablespoons.\"}},{\"@type\":\"Question\",\"name\":\"How many mL is a cup?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"One US cup equals approximately 236.6 milliliters.\"}}]}"} />
+
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <nav class="text-sm text-gray-500 mb-6">
+      <a href="/" class="hover:text-primary-600">Home</a> <span class="mx-2">›</span> <span class="text-gray-900">Cooking Converter</span>
+    </nav>
+
+    <h1 class="text-3xl font-bold text-gray-900 mb-6">Cooking Converter</h1>
+
+    <CookingConverter client:load />
+
+    <AdSense slot="middle" />
+
+    <div class="mt-12 prose prose-gray max-w-none">
+      <h2>Cooking Measurement Conversions</h2><p>Accurate measurement conversion is key to successful cooking and baking. American recipes use cups and tablespoons, while most other countries use milliliters and grams.</p><h3>Essential Kitchen Conversions</h3><p>1 cup = 16 tablespoons = 48 teaspoons = 236.6 mL. 1 tablespoon = 3 teaspoons = 14.8 mL. These conversions are especially important when scaling recipes up or down.</p>
+    </div>
+
+    <div class="mt-12 bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+      <h2 class="text-xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
+      <div class="space-y-4">
+      <div class="border-b border-gray-100 pb-4 last:border-0">
+        <h3 class="font-semibold text-gray-900 mb-2">How many tablespoons are in a cup?</h3>
+        <p class="text-gray-600">One US cup equals 16 tablespoons.</p>
+      </div>
+      <div class="border-b border-gray-100 pb-4 last:border-0">
+        <h3 class="font-semibold text-gray-900 mb-2">How many mL is a cup?</h3>
+        <p class="text-gray-600">One US cup equals approximately 236.6 milliliters.</p>
+      </div>
+      </div>
+    </div>
+
+    <AdSense slot="bottom" />
+  </div>
+</BaseLayout>

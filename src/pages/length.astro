@@ -1,0 +1,47 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/SEO.astro';
+import AdSense from '../components/AdSense.astro';
+import LengthConverter from '../components/tools/LengthConverter';
+---
+
+<BaseLayout>
+  <SEO slot="head" title="Length Converter" description="Convert between meters, feet, inches, miles, kilometers, centimeters, and more length units instantly." />
+  <script slot="head" type="application/ld+json" set:html={"{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"How many feet are in a meter?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"One meter equals approximately 3.281 feet, or 3 feet and 3.37 inches.\"}},{\"@type\":\"Question\",\"name\":\"How many kilometers are in a mile?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"One mile equals approximately 1.609 kilometers.\"}},{\"@type\":\"Question\",\"name\":\"What is a nautical mile?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"A nautical mile is 1,852 meters (about 1.151 regular miles), used in maritime and aviation navigation.\"}}]}"} />
+
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <nav class="text-sm text-gray-500 mb-6">
+      <a href="/" class="hover:text-primary-600">Home</a> <span class="mx-2">›</span> <span class="text-gray-900">Length Converter</span>
+    </nav>
+
+    <h1 class="text-3xl font-bold text-gray-900 mb-6">Length Converter</h1>
+
+    <LengthConverter client:load />
+
+    <AdSense slot="middle" />
+
+    <div class="mt-12 prose prose-gray max-w-none">
+      <h2>How to Convert Length Units</h2><p>Length conversion is one of the most common calculations in daily life, whether you're following a recipe from another country, measuring furniture, or converting distances while traveling.</p><h3>Common Conversions</h3><p>The most frequently needed conversions are between metric (meters, centimeters, kilometers) and imperial (feet, inches, miles) systems. The key relationships to remember: 1 inch equals 2.54 centimeters, 1 foot equals 30.48 centimeters, and 1 mile equals approximately 1.609 kilometers.</p><h3>When Do You Need Length Conversion?</h3><p>You might need to convert lengths when shopping online from international retailers, reading construction plans from different countries, following exercise routines with different measurement systems, or understanding road signs while traveling abroad.</p>
+    </div>
+
+    <div class="mt-12 bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+      <h2 class="text-xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
+      <div class="space-y-4">
+      <div class="border-b border-gray-100 pb-4 last:border-0">
+        <h3 class="font-semibold text-gray-900 mb-2">How many feet are in a meter?</h3>
+        <p class="text-gray-600">One meter equals approximately 3.281 feet, or 3 feet and 3.37 inches.</p>
+      </div>
+      <div class="border-b border-gray-100 pb-4 last:border-0">
+        <h3 class="font-semibold text-gray-900 mb-2">How many kilometers are in a mile?</h3>
+        <p class="text-gray-600">One mile equals approximately 1.609 kilometers.</p>
+      </div>
+      <div class="border-b border-gray-100 pb-4 last:border-0">
+        <h3 class="font-semibold text-gray-900 mb-2">What is a nautical mile?</h3>
+        <p class="text-gray-600">A nautical mile is 1,852 meters (about 1.151 regular miles), used in maritime and aviation navigation.</p>
+      </div>
+      </div>
+    </div>
+
+    <AdSense slot="bottom" />
+  </div>
+</BaseLayout>

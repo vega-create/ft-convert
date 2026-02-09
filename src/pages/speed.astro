@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/SEO.astro';
+import AdSense from '../components/AdSense.astro';
+import SpeedConverter from '../components/tools/SpeedConverter';
+---
+
+<BaseLayout>
+  <SEO slot="head" title="Speed Converter" description="Convert between km/h, mph, m/s, knots, and other speed units instantly." />
+  <script slot="head" type="application/ld+json" set:html={"{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"How do I convert km/h to mph?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Multiply km/h by 0.621371 to get mph. For example, 100 km/h ≈ 62.14 mph.\"}},{\"@type\":\"Question\",\"name\":\"What is a knot?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"A knot is one nautical mile per hour, equal to about 1.151 mph or 1.852 km/h, used in maritime and aviation.\"}}]}"} />
+
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <nav class="text-sm text-gray-500 mb-6">
+      <a href="/" class="hover:text-primary-600">Home</a> <span class="mx-2">›</span> <span class="text-gray-900">Speed Converter</span>
+    </nav>
+
+    <h1 class="text-3xl font-bold text-gray-900 mb-6">Speed Converter</h1>
+
+    <SpeedConverter client:load />
+
+    <AdSense slot="middle" />
+
+    <div class="mt-12 prose prose-gray max-w-none">
+      <h2>How to Convert Speed Units</h2><p>Speed conversion is needed when driving in different countries, understanding weather reports, or working with scientific data. The most common conversion is between kilometers per hour and miles per hour.</p><h3>Key Conversions</h3><p>1 km/h equals approximately 0.621 mph. For maritime and aviation, speed is measured in knots: 1 knot equals about 1.151 mph or 1.852 km/h.</p>
+    </div>
+
+    <div class="mt-12 bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+      <h2 class="text-xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
+      <div class="space-y-4">
+      <div class="border-b border-gray-100 pb-4 last:border-0">
+        <h3 class="font-semibold text-gray-900 mb-2">How do I convert km/h to mph?</h3>
+        <p class="text-gray-600">Multiply km/h by 0.621371 to get mph. For example, 100 km/h ≈ 62.14 mph.</p>
+      </div>
+      <div class="border-b border-gray-100 pb-4 last:border-0">
+        <h3 class="font-semibold text-gray-900 mb-2">What is a knot?</h3>
+        <p class="text-gray-600">A knot is one nautical mile per hour, equal to about 1.151 mph or 1.852 km/h, used in maritime and aviation.</p>
+      </div>
+      </div>
+    </div>
+
+    <AdSense slot="bottom" />
+  </div>
+</BaseLayout>

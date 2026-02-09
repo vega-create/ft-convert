@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/SEO.astro';
+import AdSense from '../components/AdSense.astro';
+import TimeConverter from '../components/tools/TimeConverter';
+---
+
+<BaseLayout>
+  <SEO slot="head" title="Time Converter" description="Convert between seconds, minutes, hours, days, weeks, months, and years." />
+  <script slot="head" type="application/ld+json" set:html={"{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"How many seconds are in a day?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"One day has exactly 86,400 seconds (24 hours × 60 minutes × 60 seconds).\"}},{\"@type\":\"Question\",\"name\":\"How many hours are in a year?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"A standard year has 8,760 hours. A leap year has 8,784 hours.\"}}]}"} />
+
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <nav class="text-sm text-gray-500 mb-6">
+      <a href="/" class="hover:text-primary-600">Home</a> <span class="mx-2">›</span> <span class="text-gray-900">Time Converter</span>
+    </nav>
+
+    <h1 class="text-3xl font-bold text-gray-900 mb-6">Time Converter</h1>
+
+    <TimeConverter client:load />
+
+    <AdSense slot="middle" />
+
+    <div class="mt-12 prose prose-gray max-w-none">
+      <h2>How to Convert Time Units</h2><p>Time conversion is used in scheduling, project management, scientific calculations, and everyday planning. While most conversions are straightforward, months and years can vary in length.</p>
+    </div>
+
+    <div class="mt-12 bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+      <h2 class="text-xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
+      <div class="space-y-4">
+      <div class="border-b border-gray-100 pb-4 last:border-0">
+        <h3 class="font-semibold text-gray-900 mb-2">How many seconds are in a day?</h3>
+        <p class="text-gray-600">One day has exactly 86,400 seconds (24 hours × 60 minutes × 60 seconds).</p>
+      </div>
+      <div class="border-b border-gray-100 pb-4 last:border-0">
+        <h3 class="font-semibold text-gray-900 mb-2">How many hours are in a year?</h3>
+        <p class="text-gray-600">A standard year has 8,760 hours. A leap year has 8,784 hours.</p>
+      </div>
+      </div>
+    </div>
+
+    <AdSense slot="bottom" />
+  </div>
+</BaseLayout>

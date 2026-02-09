@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/SEO.astro';
+import AdSense from '../components/AdSense.astro';
+import PressureConverter from '../components/tools/PressureConverter';
+---
+
+<BaseLayout>
+  <SEO slot="head" title="Pressure Converter" description="Convert between PSI, bar, atm, kPa, and mmHg pressure units instantly." />
+  <script slot="head" type="application/ld+json" set:html={"{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"How many PSI are in 1 bar?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"One bar equals approximately 14.504 PSI.\"}},{\"@type\":\"Question\",\"name\":\"What is standard atmospheric pressure?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"1 atm = 101,325 Pa = 14.696 PSI = 1.01325 bar = 760 mmHg.\"}}]}"} />
+
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <nav class="text-sm text-gray-500 mb-6">
+      <a href="/" class="hover:text-primary-600">Home</a> <span class="mx-2">›</span> <span class="text-gray-900">Pressure Converter</span>
+    </nav>
+
+    <h1 class="text-3xl font-bold text-gray-900 mb-6">Pressure Converter</h1>
+
+    <PressureConverter client:load />
+
+    <AdSense slot="middle" />
+
+    <div class="mt-12 prose prose-gray max-w-none">
+      <h2>How to Convert Pressure Units</h2><p>Pressure conversion is important for tire maintenance, weather forecasting, diving, and engineering. Different industries use different units: PSI in the US, bar in Europe, and kPa in scientific contexts.</p>
+    </div>
+
+    <div class="mt-12 bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+      <h2 class="text-xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
+      <div class="space-y-4">
+      <div class="border-b border-gray-100 pb-4 last:border-0">
+        <h3 class="font-semibold text-gray-900 mb-2">How many PSI are in 1 bar?</h3>
+        <p class="text-gray-600">One bar equals approximately 14.504 PSI.</p>
+      </div>
+      <div class="border-b border-gray-100 pb-4 last:border-0">
+        <h3 class="font-semibold text-gray-900 mb-2">What is standard atmospheric pressure?</h3>
+        <p class="text-gray-600">1 atm = 101,325 Pa = 14.696 PSI = 1.01325 bar = 760 mmHg.</p>
+      </div>
+      </div>
+    </div>
+
+    <AdSense slot="bottom" />
+  </div>
+</BaseLayout>
