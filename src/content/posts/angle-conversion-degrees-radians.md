@@ -15,8 +15,18 @@ faq:
     a: "Yes! Our angle conversion degrees converter works on all devices — phones, tablets, and desktops. Just visit our website and use the converter tool. No app download needed."
 ---
 
-<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #ecfdf5, #eff6ff); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;"><div style="font-size: 1.5rem; margin-bottom: 0.5rem;">🔄</div><div style="font-weight: 700; color: #111827; font-size: 1rem;">Angle Conversion Degrees Radians</div><div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div></div>
-
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(90px, 1fr)); gap: 0.5rem;">
+<div style="padding: 0.6rem; background: #dbeafe; border-radius: 8px; text-align: center; border: 1px solid #93c5fd;">
+<div style="font-weight: 800; color: #1e40af; font-size: 1rem;">0°</div><div style="font-size: 0.65rem; color: #6b7280;">0 rad</div></div>
+<div style="padding: 0.6rem; background: #d1fae5; border-radius: 8px; text-align: center; border: 1px solid #6ee7b7;">
+<div style="font-weight: 800; color: #059669; font-size: 1rem;">90°</div><div style="font-size: 0.65rem; color: #6b7280;">π/2 rad</div></div>
+<div style="padding: 0.6rem; background: #fef3c7; border-radius: 8px; text-align: center; border: 1px solid #fde68a;">
+<div style="font-weight: 800; color: #b45309; font-size: 1rem;">180°</div><div style="font-size: 0.65rem; color: #6b7280;">π rad</div></div>
+<div style="padding: 0.6rem; background: #fce7f3; border-radius: 8px; text-align: center; border: 1px solid #f9a8d4;">
+<div style="font-weight: 800; color: #be185d; font-size: 1rem;">270°</div><div style="font-size: 0.65rem; color: #6b7280;">3π/2 rad</div></div>
+<div style="padding: 0.6rem; background: #ede9fe; border-radius: 8px; text-align: center; border: 1px solid #c4b5fd;">
+<div style="font-weight: 800; color: #6d28d9; font-size: 1rem;">360°</div><div style="font-size: 0.65rem; color: #6b7280;">2π rad</div></div>
+</div>
 Angle measurement is fundamental in mathematics, engineering, navigation, and many other fields. While most people are familiar with degrees, radians and gradians serve important purposes in different contexts.
 
 ## Degrees

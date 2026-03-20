@@ -15,8 +15,22 @@ faq:
     a: "Yes! Our volume conversions practical converter works on all devices — phones, tablets, and desktops. Just visit our website and use the converter tool. No app download needed."
 ---
 
-<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #ecfdf5, #eff6ff); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;"><div style="font-size: 1.5rem; margin-bottom: 0.5rem;">🔄</div><div style="font-weight: 700; color: #111827; font-size: 1rem;">Volume Conversions Practical Guide</div><div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div></div>
-
+<div style="margin: 2rem 0; background: #f8fafc; border-radius: 12px; padding: 1.2rem; border: 1px solid #e2e8f0;">
+<div style="font-weight: 700; font-size: 0.85rem; color: #334155; margin-bottom: 0.8rem;">Volume Conversion Reference</div>
+<div style="display: grid; grid-template-columns: 1fr auto 1fr; gap: 0.3rem; font-size: 0.8rem; align-items: center;">
+<div style="background: #dbeafe; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #1e40af;">1 US gallon</div>
+<div style="color: #94a3b8;">=</div>
+<div style="background: #d1fae5; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #059669;">3.785 L</div>
+<div style="background: #dbeafe; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #1e40af;">1 liter</div>
+<div style="color: #94a3b8;">=</div>
+<div style="background: #d1fae5; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #059669;">4.227 cups</div>
+<div style="background: #dbeafe; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #1e40af;">1 fl oz</div>
+<div style="color: #94a3b8;">=</div>
+<div style="background: #d1fae5; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #059669;">29.57 mL</div>
+<div style="background: #dbeafe; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #1e40af;">1 quart</div>
+<div style="color: #94a3b8;">=</div>
+<div style="background: #d1fae5; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #059669;">0.946 L</div>
+</div></div>
 Volume conversion comes up constantly in cooking, shopping, science, and international trade. The challenge is that different countries not only use different units but sometimes use the same name for different sizes.
 
 ## Metric Volume Units

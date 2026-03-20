@@ -15,11 +15,25 @@ faq:
     a: "Yes — metric is based on powers of 10, making conversions simple (1 km = 1000 m). Imperial uses irregular ratios (1 mile = 5,280 feet), which makes mental math much harder."
 ---
 
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.8rem;">
-<div style="padding: 1rem; background: #eff6ff; border-radius: 10px; border: 1px solid #bfdbfe;"><div style="font-weight: 700; color: #2563eb; font-size: 0.9rem; text-align: center; margin-bottom: 0.5rem;">Metric System</div><div style="color: #374151; font-size: 0.75rem; margin-bottom: 0.3rem;">• Based on 10s</div><div style="color: #374151; font-size: 0.75rem; margin-bottom: 0.3rem;">• Used by 95% of world</div><div style="color: #374151; font-size: 0.75rem; margin-bottom: 0.3rem;">• meter, gram, liter</div><div style="color: #374151; font-size: 0.75rem; margin-bottom: 0.3rem;">• Scientific standard</div></div>
-<div style="padding: 1rem; background: #fef2f2; border-radius: 10px; border: 1px solid #fecaca;"><div style="font-weight: 700; color: #dc2626; font-size: 0.9rem; text-align: center; margin-bottom: 0.5rem;">Imperial System</div><div style="color: #374151; font-size: 0.75rem; margin-bottom: 0.3rem;">• Historical units</div><div style="color: #374151; font-size: 0.75rem; margin-bottom: 0.3rem;">• US, UK, Myanmar</div><div style="color: #374151; font-size: 0.75rem; margin-bottom: 0.3rem;">• foot, pound, gallon</div><div style="color: #374151; font-size: 0.75rem; margin-bottom: 0.3rem;">• Daily use in US</div></div>
-</div>
-
+<div style="margin: 2rem 0; background: #f8fafc; border-radius: 12px; padding: 1.2rem; border: 1px solid #e2e8f0;">
+<div style="font-weight: 700; font-size: 0.85rem; color: #334155; margin-bottom: 0.8rem;">Metric vs Imperial — Key Equivalents</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.3rem; font-size: 0.75rem;">
+<div style="font-weight: 700; color: #64748b; text-align: center; padding: 0.3rem;">Measure</div>
+<div style="font-weight: 700; color: #2563eb; text-align: center; padding: 0.3rem;">Imperial</div>
+<div style="font-weight: 700; color: #059669; text-align: center; padding: 0.3rem;">Metric</div>
+<div style="text-align: center; padding: 0.3rem; font-weight: 600;">Length</div>
+<div style="background: #dbeafe; padding: 0.3rem; border-radius: 4px; text-align: center;">1 mile</div>
+<div style="background: #d1fae5; padding: 0.3rem; border-radius: 4px; text-align: center;">1.609 km</div>
+<div style="text-align: center; padding: 0.3rem; font-weight: 600;">Weight</div>
+<div style="background: #dbeafe; padding: 0.3rem; border-radius: 4px; text-align: center;">1 pound</div>
+<div style="background: #d1fae5; padding: 0.3rem; border-radius: 4px; text-align: center;">0.454 kg</div>
+<div style="text-align: center; padding: 0.3rem; font-weight: 600;">Volume</div>
+<div style="background: #dbeafe; padding: 0.3rem; border-radius: 4px; text-align: center;">1 gallon</div>
+<div style="background: #d1fae5; padding: 0.3rem; border-radius: 4px; text-align: center;">3.785 L</div>
+<div style="text-align: center; padding: 0.3rem; font-weight: 600;">Temp</div>
+<div style="background: #dbeafe; padding: 0.3rem; border-radius: 4px; text-align: center;">72°F</div>
+<div style="background: #d1fae5; padding: 0.3rem; border-radius: 4px; text-align: center;">22.2°C</div>
+</div></div>
 The world uses two major measurement systems: metric and imperial. Understanding both is essential for international communication, cooking, science, and travel.
 
 ## The Metric System

@@ -15,8 +15,20 @@ faq:
     a: "Yes! Our length conversion travel converter works on all devices — phones, tablets, and desktops. Just visit our website and use the converter tool. No app download needed."
 ---
 
-<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #ecfdf5, #eff6ff); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;"><div style="font-size: 1.5rem; margin-bottom: 0.5rem;">🔄</div><div style="font-weight: 700; color: #111827; font-size: 1rem;">Length Conversion Travel Guide</div><div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div></div>
-
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 0.5rem;">
+<div style="padding: 0.7rem; background: #dbeafe; border-radius: 10px; text-align: center; border: 1px solid #93c5fd;">
+<div style="font-weight: 800; color: #1e40af; font-size: 0.9rem;">1 mile</div>
+<div style="font-size: 0.7rem; color: #6b7280;">= 1.609 km</div></div>
+<div style="padding: 0.7rem; background: #d1fae5; border-radius: 10px; text-align: center; border: 1px solid #6ee7b7;">
+<div style="font-weight: 800; color: #059669; font-size: 0.9rem;">1 km</div>
+<div style="font-size: 0.7rem; color: #6b7280;">= 0.621 miles</div></div>
+<div style="padding: 0.7rem; background: #fef3c7; border-radius: 10px; text-align: center; border: 1px solid #fde68a;">
+<div style="font-weight: 800; color: #b45309; font-size: 0.9rem;">5 km</div>
+<div style="font-size: 0.7rem; color: #6b7280;">= 3.1 miles</div></div>
+<div style="padding: 0.7rem; background: #fce7f3; border-radius: 10px; text-align: center; border: 1px solid #f9a8d4;">
+<div style="font-weight: 800; color: #be185d; font-size: 0.9rem;">100 km</div>
+<div style="font-size: 0.7rem; color: #6b7280;">= 62.1 miles</div></div>
+</div>
 Traveling between countries that use different measurement systems can be confusing. Speed limit signs, distance markers, product dimensions, and even body measurements are expressed differently depending on where you are.
 
 ## The Essential Conversion

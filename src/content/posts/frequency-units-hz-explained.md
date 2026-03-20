@@ -15,8 +15,19 @@ faq:
     a: "Yes! Our frequency units hz converter works on all devices — phones, tablets, and desktops. Just visit our website and use the converter tool. No app download needed."
 ---
 
-<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #ecfdf5, #eff6ff); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;"><div style="font-size: 1.5rem; margin-bottom: 0.5rem;">🔄</div><div style="font-weight: 700; color: #111827; font-size: 1rem;">Frequency Units Hz Explained</div><div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div></div>
-
+<div style="margin: 2rem 0; background: #f8fafc; border-radius: 12px; padding: 1.2rem; border: 1px solid #e2e8f0;">
+<div style="font-weight: 700; font-size: 0.85rem; color: #334155; margin-bottom: 0.8rem;">Frequency Scale — Where Things Fall</div>
+<div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;">
+<div style="width: 20%; background: #94a3b8; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.7rem; font-weight: 600; color: white;">60 Hz — AC power</div></div>
+<div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;">
+<div style="width: 35%; background: #60a5fa; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.7rem; font-weight: 600; color: white;">20 kHz — Human hearing limit</div></div>
+<div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;">
+<div style="width: 55%; background: #34d399; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.7rem; font-weight: 600; color: white;">2.4 GHz — WiFi</div></div>
+<div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;">
+<div style="width: 75%; background: #f59e0b; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.7rem; font-weight: 600; color: white;">5 GHz — WiFi 5/6</div></div>
+<div style="display: flex; align-items: center; gap: 0.5rem;">
+<div style="width: 100%; background: #8b5cf6; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.7rem; font-weight: 600; color: white;">5.8 GHz — CPU clock speed</div></div>
+</div>
 Frequency measures how often something repeats per second. It appears everywhere in modern life — from the processor speed of your computer to the radio stations you listen to, from musical notes to WiFi signals.
 
 ## What is Frequency?

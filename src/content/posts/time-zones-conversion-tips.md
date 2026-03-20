@@ -15,8 +15,16 @@ faq:
     a: "Yes! Our time zones conversion converter works on all devices — phones, tablets, and desktops. Just visit our website and use the converter tool. No app download needed."
 ---
 
-<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #ecfdf5, #eff6ff); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;"><div style="font-size: 1.5rem; margin-bottom: 0.5rem;">🔄</div><div style="font-weight: 700; color: #111827; font-size: 1rem;">Time Zones Conversion Tips</div><div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div></div>
-
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 0.5rem;">
+<div style="padding: 0.6rem; background: #dbeafe; border-radius: 8px; text-align: center; border: 1px solid #93c5fd;">
+<div style="font-weight: 800; color: #1e40af; font-size: 0.9rem;">60 sec</div><div style="font-size: 0.65rem; color: #6b7280;">= 1 min</div></div>
+<div style="padding: 0.6rem; background: #d1fae5; border-radius: 8px; text-align: center; border: 1px solid #6ee7b7;">
+<div style="font-weight: 800; color: #059669; font-size: 0.9rem;">3,600 sec</div><div style="font-size: 0.65rem; color: #6b7280;">= 1 hour</div></div>
+<div style="padding: 0.6rem; background: #fef3c7; border-radius: 8px; text-align: center; border: 1px solid #fde68a;">
+<div style="font-weight: 800; color: #b45309; font-size: 0.9rem;">86,400 sec</div><div style="font-size: 0.65rem; color: #6b7280;">= 1 day</div></div>
+<div style="padding: 0.6rem; background: #ede9fe; border-radius: 8px; text-align: center; border: 1px solid #c4b5fd;">
+<div style="font-weight: 800; color: #6d28d9; font-size: 0.9rem;">31.5M sec</div><div style="font-size: 0.65rem; color: #6b7280;">≈ 1 year</div></div>
+</div>
 Time conversion seems straightforward until you need to figure out exactly how many minutes are in 2.5 hours, or how many weeks are in 1,000 hours. These calculations come up frequently in project management, fitness tracking, and everyday planning.
 
 ## Basic Time Conversions

@@ -15,8 +15,22 @@ faq:
     a: "Yes! Our speed units around converter works on all devices — phones, tablets, and desktops. Just visit our website and use the converter tool. No app download needed."
 ---
 
-<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #ecfdf5, #eff6ff); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;"><div style="font-size: 1.5rem; margin-bottom: 0.5rem;">🔄</div><div style="font-weight: 700; color: #111827; font-size: 1rem;">Speed Units Around The World</div><div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div></div>
-
+<div style="margin: 2rem 0; background: #f8fafc; border-radius: 12px; padding: 1.2rem; border: 1px solid #e2e8f0;">
+<div style="font-weight: 700; font-size: 0.85rem; color: #334155; margin-bottom: 0.8rem;">Highway Speed in Different Units</div>
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.4rem;">
+<div style="background: #dbeafe; padding: 0.5rem; border-radius: 8px; text-align: center; border: 1px solid #93c5fd;">
+<div style="font-weight: 800; color: #1e40af; font-size: 1rem;">65</div>
+<div style="font-size: 0.7rem; color: #6b7280;">mph</div></div>
+<div style="background: #d1fae5; padding: 0.5rem; border-radius: 8px; text-align: center; border: 1px solid #6ee7b7;">
+<div style="font-weight: 800; color: #059669; font-size: 1rem;">105</div>
+<div style="font-size: 0.7rem; color: #6b7280;">km/h</div></div>
+<div style="background: #fef3c7; padding: 0.5rem; border-radius: 8px; text-align: center; border: 1px solid #fde68a;">
+<div style="font-weight: 800; color: #b45309; font-size: 1rem;">56</div>
+<div style="font-size: 0.7rem; color: #6b7280;">knots</div></div>
+<div style="background: #fce7f3; padding: 0.5rem; border-radius: 8px; text-align: center; border: 1px solid #f9a8d4;">
+<div style="font-weight: 800; color: #be185d; font-size: 1rem;">29</div>
+<div style="font-size: 0.7rem; color: #6b7280;">m/s</div></div>
+</div></div>
 Speed measurement varies significantly around the world. Understanding different speed units is important for travel, sports, weather reports, and scientific work.
 
 ## Common Speed Units
