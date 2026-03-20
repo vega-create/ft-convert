@@ -14,21 +14,6 @@ faq:
   - q: "Why do some countries use kilograms and others pounds?"
     a: "Most countries use kilograms (metric system). The US, UK (partially), and a few other countries use pounds (imperial). Kilograms are the scientific standard worldwide."
 ---
-
-<div style="margin: 2rem 0; background: #f8fafc; border-radius: 12px; padding: 1.2rem; border: 1px solid #e2e8f0;">
-<div style="font-weight: 700; font-size: 0.85rem; color: #334155; margin-bottom: 0.8rem;">Common Weight Conversions</div>
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.4rem; font-size: 0.8rem;">
-<div style="background: #dbeafe; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #1e40af;">50 kg</div>
-<div style="background: #d1fae5; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #059669;">110 lbs</div>
-<div style="background: #dbeafe; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #1e40af;">70 kg</div>
-<div style="background: #d1fae5; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #059669;">154 lbs</div>
-<div style="background: #dbeafe; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #1e40af;">90 kg</div>
-<div style="background: #d1fae5; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #059669;">198 lbs</div>
-<div style="background: #dbeafe; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #1e40af;">100 kg</div>
-<div style="background: #d1fae5; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #059669;">220 lbs</div>
-</div>
-<div style="margin-top: 0.5rem; font-size: 0.7rem; color: #94a3b8; text-align: center;">1 kg = 2.2046 lbs | 1 lb = 0.4536 kg</div>
-</div>
 Weight conversion between kilograms and pounds is one of the most common conversions needed in daily life. Whether you are tracking your fitness goals, following a recipe, shipping packages, or traveling internationally, knowing how to convert between weight units is essential.
 
 ## The Basic Conversion

@@ -14,20 +14,6 @@ faq:
   - q: "What is a petabyte used for?"
     a: "Petabytes (1 PB = 1,024 TB) are used by cloud services, streaming platforms, and research institutions. Netflix reportedly stores about 15 PB of content. Most consumers will never need a petabyte."
 ---
-
-<div style="margin: 2rem 0; background: #f8fafc; border-radius: 12px; padding: 1.2rem; border: 1px solid #e2e8f0;">
-<div style="font-weight: 700; font-size: 0.85rem; color: #334155; margin-bottom: 0.8rem;">Data Storage Scale (each step = ×1,024)</div>
-<div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;">
-<div style="width: 15%; background: #94a3b8; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.7rem; font-weight: 600; color: white;">1 KB</div></div>
-<div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;">
-<div style="width: 30%; background: #60a5fa; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.7rem; font-weight: 600; color: white;">1 MB = 1,024 KB</div></div>
-<div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;">
-<div style="width: 50%; background: #34d399; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.7rem; font-weight: 600; color: white;">1 GB = 1,024 MB</div></div>
-<div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;">
-<div style="width: 75%; background: #f59e0b; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.7rem; font-weight: 600; color: white;">1 TB = 1,024 GB</div></div>
-<div style="display: flex; align-items: center; gap: 0.5rem;">
-<div style="width: 100%; background: #8b5cf6; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.7rem; font-weight: 600; color: white;">1 PB = 1,024 TB</div></div>
-</div>
 In the digital age, understanding data storage units is essential for everyone from casual smartphone users to IT professionals. But the relationship between different units can be confusing, especially when manufacturers and operating systems use different definitions.
 
 ## The Basics: Bits and Bytes

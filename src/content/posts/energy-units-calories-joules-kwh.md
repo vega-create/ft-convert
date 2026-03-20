@@ -14,21 +14,6 @@ faq:
   - q: "Can I convert energy units calories on my phone?"
     a: "Yes! Our energy units calories converter works on all devices — phones, tablets, and desktops. Just visit our website and use the converter tool. No app download needed."
 ---
-
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 0.5rem;">
-<div style="padding: 0.7rem; background: #fef2f2; border-radius: 10px; text-align: center; border: 1px solid #fecaca;">
-<div style="font-weight: 800; color: #dc2626; font-size: 1rem;">1 Cal</div>
-<div style="font-size: 0.65rem; color: #6b7280;">= 4,184 J</div></div>
-<div style="padding: 0.7rem; background: #dbeafe; border-radius: 10px; text-align: center; border: 1px solid #93c5fd;">
-<div style="font-weight: 800; color: #2563eb; font-size: 1rem;">1 kWh</div>
-<div style="font-size: 0.65rem; color: #6b7280;">= 3.6 MJ</div></div>
-<div style="padding: 0.7rem; background: #d1fae5; border-radius: 10px; text-align: center; border: 1px solid #6ee7b7;">
-<div style="font-weight: 800; color: #059669; font-size: 1rem;">1 BTU</div>
-<div style="font-size: 0.65rem; color: #6b7280;">= 1,055 J</div></div>
-<div style="padding: 0.7rem; background: #fef3c7; border-radius: 10px; text-align: center; border: 1px solid #fde68a;">
-<div style="font-weight: 800; color: #b45309; font-size: 1rem;">1 eV</div>
-<div style="font-size: 0.65rem; color: #6b7280;">= 1.6×10⁻¹⁹ J</div></div>
-</div>
 Energy is measured in many different units depending on the context. Calories appear on food labels, kilowatt-hours on electricity bills, BTUs in heating specifications, and joules in physics textbooks. Understanding how these units relate helps you make informed decisions about diet, energy consumption, and more.
 
 ## The Main Energy Units

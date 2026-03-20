@@ -14,20 +14,6 @@ faq:
   - q: "Can I convert binary hex number on my phone?"
     a: "Yes! Our binary hex number converter works on all devices — phones, tablets, and desktops. Just visit our website and use the converter tool. No app download needed."
 ---
-
-<div style="margin: 2rem 0; background: #1e293b; border-radius: 12px; padding: 1.2rem; border: 1px solid #334155;">
-<div style="font-weight: 700; font-size: 0.85rem; color: #94a3b8; margin-bottom: 0.8rem;">Number 255 in Different Bases</div>
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem;">
-<div style="background: #334155; padding: 0.6rem; border-radius: 8px; text-align: center;">
-<div style="font-size: 0.65rem; color: #94a3b8;">Decimal (Base 10)</div>
-<div style="font-weight: 800; color: #60a5fa; font-size: 1.1rem; font-family: monospace;">255</div></div>
-<div style="background: #334155; padding: 0.6rem; border-radius: 8px; text-align: center;">
-<div style="font-size: 0.65rem; color: #94a3b8;">Binary (Base 2)</div>
-<div style="font-weight: 800; color: #4ade80; font-size: 1.1rem; font-family: monospace;">11111111</div></div>
-<div style="background: #334155; padding: 0.6rem; border-radius: 8px; text-align: center;">
-<div style="font-size: 0.65rem; color: #94a3b8;">Hex (Base 16)</div>
-<div style="font-weight: 800; color: #f472b6; font-size: 1.1rem; font-family: monospace;">FF</div></div>
-</div></div>
 Number systems are the foundation of computing. While we use the decimal system (base 10) in daily life, computers work in binary (base 2), and programmers frequently use hexadecimal (base 16). Understanding these systems helps you work with computers at a deeper level.
 
 ## Decimal (Base 10)

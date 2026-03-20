@@ -14,27 +14,6 @@ faq:
   - q: "Why does the US use Fahrenheit instead of Celsius?"
     a: "The US adopted Fahrenheit before the metric system gained global traction. Fahrenheit offers more granularity for weather (0-100°F roughly covers human comfort range) but is less intuitive for science."
 ---
-
-<div style="margin: 2rem 0; background: #f8fafc; border-radius: 12px; padding: 1.2rem; border: 1px solid #e2e8f0;">
-<div style="font-weight: 700; font-size: 0.85rem; color: #334155; margin-bottom: 0.8rem;">Three Temperature Scales at Key Points</div>
-<div style="display: grid; grid-template-columns: auto 1fr 1fr 1fr; gap: 0.3rem; font-size: 0.75rem; align-items: center;">
-<div style="padding: 0.3rem;"></div>
-<div style="font-weight: 700; color: #2563eb; text-align: center;">°F</div>
-<div style="font-weight: 700; color: #dc2626; text-align: center;">°C</div>
-<div style="font-weight: 700; color: #7c3aed; text-align: center;">K</div>
-<div style="padding: 0.3rem; font-weight: 600;">Absolute zero</div>
-<div style="background: #dbeafe; padding: 0.3rem; border-radius: 4px; text-align: center;">−459.67</div>
-<div style="background: #fecaca; padding: 0.3rem; border-radius: 4px; text-align: center;">−273.15</div>
-<div style="background: #ede9fe; padding: 0.3rem; border-radius: 4px; text-align: center;">0</div>
-<div style="padding: 0.3rem; font-weight: 600;">Water freezes</div>
-<div style="background: #dbeafe; padding: 0.3rem; border-radius: 4px; text-align: center;">32</div>
-<div style="background: #fecaca; padding: 0.3rem; border-radius: 4px; text-align: center;">0</div>
-<div style="background: #ede9fe; padding: 0.3rem; border-radius: 4px; text-align: center;">273.15</div>
-<div style="padding: 0.3rem; font-weight: 600;">Water boils</div>
-<div style="background: #dbeafe; padding: 0.3rem; border-radius: 4px; text-align: center;">212</div>
-<div style="background: #fecaca; padding: 0.3rem; border-radius: 4px; text-align: center;">100</div>
-<div style="background: #ede9fe; padding: 0.3rem; border-radius: 4px; text-align: center;">373.15</div>
-</div></div>
 Temperature is one of the most commonly measured physical quantities, yet different parts of the world use different scales to measure it. Understanding all three major temperature scales helps you navigate cooking, weather, science, and international travel.
 
 ## Celsius (°C)

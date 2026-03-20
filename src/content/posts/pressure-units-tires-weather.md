@@ -14,21 +14,6 @@ faq:
   - q: "Can I convert pressure units tires on my phone?"
     a: "Yes! Our pressure units tires converter works on all devices — phones, tablets, and desktops. Just visit our website and use the converter tool. No app download needed."
 ---
-
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 0.5rem;">
-<div style="padding: 0.7rem; background: #dbeafe; border-radius: 10px; text-align: center; border: 1px solid #93c5fd;">
-<div style="font-weight: 800; color: #1e40af; font-size: 0.9rem;">1 atm</div>
-<div style="font-size: 0.65rem; color: #6b7280;">101.325 kPa</div></div>
-<div style="padding: 0.7rem; background: #d1fae5; border-radius: 10px; text-align: center; border: 1px solid #6ee7b7;">
-<div style="font-weight: 800; color: #059669; font-size: 0.9rem;">14.7 PSI</div>
-<div style="font-size: 0.65rem; color: #6b7280;">= 1 atm</div></div>
-<div style="padding: 0.7rem; background: #fef3c7; border-radius: 10px; text-align: center; border: 1px solid #fde68a;">
-<div style="font-weight: 800; color: #b45309; font-size: 0.9rem;">32 PSI</div>
-<div style="font-size: 0.65rem; color: #6b7280;">Typical tire</div></div>
-<div style="padding: 0.7rem; background: #fce7f3; border-radius: 10px; text-align: center; border: 1px solid #f9a8d4;">
-<div style="font-weight: 800; color: #be185d; font-size: 0.9rem;">1013 hPa</div>
-<div style="font-size: 0.65rem; color: #6b7280;">Std weather</div></div>
-</div>
 Pressure measurements are more common in daily life than you might think. From checking your tire pressure to understanding weather forecasts, different pressure units appear in various contexts.
 
 ## Common Pressure Units
