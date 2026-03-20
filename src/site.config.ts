@@ -16,6 +16,6 @@ export const siteConfig = {
   },
   adsense: {
     client: 'ca-pub-3493526929407874',
-    enabled: true,
+    enabled: false,
   },
 };
