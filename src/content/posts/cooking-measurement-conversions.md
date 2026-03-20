@@ -4,7 +4,23 @@ description: "Master cooking conversions between cups, tablespoons, milliliters,
 publishDate: "2026-02-01"
 category: "Cooking"
 tags: ["cooking", "kitchen", "volume", "recipes"]
+image: "https://images.pexels.com/photos/1005731/pexels-photo-1005731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "An artistic view of an empty measuring glass highlighting metric and ounce measurements."
+faq:
+  - q: "How many tablespoons are in a cup?"
+    a: "There are 16 tablespoons in 1 US cup. Half a cup is 8 tablespoons, and a quarter cup is 4 tablespoons."
+  - q: "What's the difference between dry and liquid measuring cups?"
+    a: "Dry cups are meant to be filled and leveled off. Liquid cups have a spout and markings on the side. Using the wrong type can cause measurement errors of 10-15%."
+  - q: "How do I convert grams to cups for baking?"
+    a: "It depends on the ingredient density. 1 cup of flour ≈ 125g, 1 cup of sugar ≈ 200g, 1 cup of butter ≈ 227g. Our converter tool handles these differences automatically."
 ---
+
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;">
+<div style="padding: 0.8rem; background: #eff6ff; border-radius: 10px; border: 1px solid #bfdbfe; text-align: center;"><div style="font-size: 1.3rem;">🥄</div><div style="font-weight: 700; color: #2563eb; font-size: 0.8rem;">1 tbsp</div><div style="color: #6b7280; font-size: 0.7rem;">= 3 tsp</div></div>
+<div style="padding: 0.8rem; background: #f0fdf4; border-radius: 10px; border: 1px solid #bbf7d0; text-align: center;"><div style="font-size: 1.3rem;">🥛</div><div style="font-weight: 700; color: #16a34a; font-size: 0.8rem;">1 cup</div><div style="color: #6b7280; font-size: 0.7rem;">= 16 tbsp</div></div>
+<div style="padding: 0.8rem; background: #faf5ff; border-radius: 10px; border: 1px solid #e9d5ff; text-align: center;"><div style="font-size: 1.3rem;">⚖️</div><div style="font-weight: 700; color: #7c3aed; font-size: 0.8rem;">1 oz</div><div style="color: #6b7280; font-size: 0.7rem;">= 28.35 g</div></div>
+<div style="padding: 0.8rem; background: #fefce8; border-radius: 10px; border: 1px solid #fef08a; text-align: center;"><div style="font-size: 1.3rem;">🧴</div><div style="font-weight: 700; color: #ca8a04; font-size: 0.8rem;">1 cup</div><div style="color: #6b7280; font-size: 0.7rem;">= 236 mL</div></div>
+</div>
 
 Accurate measurements are the foundation of successful cooking and baking. Whether you are following a recipe from another country or scaling a recipe up or down, understanding measurement conversions is essential.
 
